@@ -36,7 +36,7 @@ void loop()
     for(int j =outMin; j<=outMax;j++)
     {
       digitalWrite(j,0);
-    }    step = 13;
+    }    step = outMax;
   }
 }
 
